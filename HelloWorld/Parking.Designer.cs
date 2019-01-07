@@ -35,8 +35,10 @@
             this.pauseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.lblParkingStatus = new System.Windows.Forms.Label();
+            this.pbGrayImage = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.parkingLive)).BeginInit();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbGrayImage)).BeginInit();
             this.SuspendLayout();
             // 
             // parkingLive
@@ -61,21 +63,21 @@
             // startToolStripMenuItem
             // 
             this.startToolStripMenuItem.Name = "startToolStripMenuItem";
-            this.startToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.startToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
             this.startToolStripMenuItem.Text = "Start";
             this.startToolStripMenuItem.Click += new System.EventHandler(this.startToolStripMenuItem_Click);
             // 
             // stopToolStripMenuItem
             // 
             this.stopToolStripMenuItem.Name = "stopToolStripMenuItem";
-            this.stopToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.stopToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
             this.stopToolStripMenuItem.Text = "Stop";
             this.stopToolStripMenuItem.Click += new System.EventHandler(this.stopToolStripMenuItem_Click);
             // 
             // pauseToolStripMenuItem
             // 
             this.pauseToolStripMenuItem.Name = "pauseToolStripMenuItem";
-            this.pauseToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.pauseToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
             this.pauseToolStripMenuItem.Text = "Pause";
             this.pauseToolStripMenuItem.Click += new System.EventHandler(this.pauseToolStripMenuItem_Click);
             // 
@@ -99,11 +101,20 @@
             this.lblParkingStatus.TabIndex = 2;
             this.lblParkingStatus.Text = "label1";
             // 
+            // pbGrayImage
+            // 
+            this.pbGrayImage.Location = new System.Drawing.Point(727, 94);
+            this.pbGrayImage.Name = "pbGrayImage";
+            this.pbGrayImage.Size = new System.Drawing.Size(506, 372);
+            this.pbGrayImage.TabIndex = 3;
+            this.pbGrayImage.TabStop = false;
+            // 
             // Parking
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1245, 478);
+            this.Controls.Add(this.pbGrayImage);
             this.Controls.Add(this.lblParkingStatus);
             this.Controls.Add(this.parkingLive);
             this.Controls.Add(this.menuStrip1);
@@ -113,6 +124,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.parkingLive)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbGrayImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -127,6 +139,7 @@
         private System.Windows.Forms.ToolStripMenuItem pauseToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.Label lblParkingStatus;
+        private System.Windows.Forms.PictureBox pbGrayImage;
     }
 }
 

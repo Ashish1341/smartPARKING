@@ -41,4 +41,3 @@ E:\Study\Smart_PARKING\HelloWorld\HelloWorld\obj\Debug\SmartPARKING.csproj.Gener
 E:\Study\Smart_PARKING\HelloWorld\HelloWorld\obj\Debug\SmartPARKING.csproj.CoreCompileInputs.cache
 E:\Study\Smart_PARKING\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
 E:\Study\Smart_PARKING\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
-E:\Study\Smart_PARKING\HelloWorld\HelloWorld\obj\Debug\SmartPARKING.csprojResolveAssemblyReference.cache
